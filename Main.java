@@ -1,4 +1,12 @@
+import java.util.Scanner;
+
 public class Main {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        String s = scanner.nextLine();
+        System.out.println(calc(s));
+
+    }
     public static String calc(String input){
         String sign = findSign(input);
 
@@ -47,7 +55,7 @@ public class Main {
 
         }
 
-            return "throws Exception";
+        return "throws Exception";
 
 
 
@@ -164,6 +172,3 @@ public class Main {
 
     }
 }
-
-
-
